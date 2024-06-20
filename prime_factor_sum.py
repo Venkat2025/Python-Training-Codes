@@ -19,7 +19,7 @@ def main():
     arr=list(map(int,input().split()))
     num=int(input().strip())
     factors= prime_factors(num)
-    result=0
+    result=0    
 
     for factor,power in factors.items:
         index=factor
